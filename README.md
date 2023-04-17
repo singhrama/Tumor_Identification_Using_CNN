@@ -6,10 +6,12 @@ Classifying brain MRI images with tumors and using a Convolutional Neural Networ
 the dataset was aquiered from the web and contains 150 samples of different brain images.
 training set contains 120 images and test set contains 30 images (common ratio of 80:20).
 the dataset is very poor in size and resolution and was hand cropped.
-* Brains with Tumer ![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/tumorExmple.JPG)
+* Brains with Tumer 
+![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/tumorExmple.JPG)
 
 
-* Brains without Tumer ![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/normalExample.JPG)
+* Brains without Tumer 
+![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/normalExample.JPG)
 
 
 # About the CNN:
@@ -27,18 +29,18 @@ Results of the model is 98.5% success rate on the training set, and 76.6% succes
 
 
 Recommendations:
-Use K-Fold cross validation to reduce the training accuracy and improve test accuracy.
-Implement "one cycle learning rate policy", vary learning rate on the training set data.
-Improve the accuracy by using more images to train the model.
+* Use K-Fold cross validation to reduce the training accuracy and improve test accuracy.
+* Implement "one cycle learning rate policy", vary learning rate on the training set data.
+* Improve the accuracy by using more images to train the model.
 
-# how to use the CNN:
+# How to use the CNN:
 
-## using the hdf5 ready to use weights file:
+## Using the hdf5 ready to use weights file:
 The weights hdf5 file 'mri_model_weights.h5' is attached and you can put it in a directory along with the 'predicting single image.py'
 python file and the dataset folder containing the test set.
 you can even upload an image of your own if you want to test it.
 
 
-## teaching the network from scratch:
+## Teaching the network from scratch:
 you have to get your own dataset (mine was to big to upload here)
 and run the 'mri_cnn.py' file
