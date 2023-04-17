@@ -30,6 +30,7 @@ Results of the model is 98.5% success rate on the training set, and 76.6% succes
 
 
 Recommendations:
+* More advanced architectures that can be used to improve performance, such as the ResNet or DenseNet architectures.
 * Use K-Fold cross validation to reduce the training accuracy and improve test accuracy.
 * Implement "one cycle learning rate policy", vary learning rate on the training set data.
 * Improve the accuracy by using more images to train the model.
