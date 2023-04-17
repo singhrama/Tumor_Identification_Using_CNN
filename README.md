@@ -6,11 +6,12 @@ Classifying brain MRI images with tumors and using a Convolutional Neural Networ
 The dataset was aquiered from the web and contains 150 samples of different brain images.
 Training set contains 120 images and test set contains 30 images (aspect ratio of 80:20).
 The dataset is very poor in size and resolution and was hand cropped.
-Brains with Tumer 
+
+* Brains with Tumor 
 ![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/tumorExmple.JPG)
 
 
-Brains without Tumer 
+* Brains without Tumor 
 ![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/normalExample.JPG)
 
 
